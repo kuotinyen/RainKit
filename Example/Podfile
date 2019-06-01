@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RainKit_Example' do
+  pod 'RainKit', :path => '../'
+
+  target 'RainKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
