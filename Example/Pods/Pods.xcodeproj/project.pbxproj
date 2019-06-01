@@ -33,6 +33,23 @@
 		9D9D19673D2E534313AB768C83E17BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A5D81B4F2EEBFB783CC9CF914EAD20FF /* RainKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8142A9EE18CD96A23A0B18359E83E437 /* RainKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB6B49DCBC5E001987B02F738EF033FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B07CBBB722A28C8000DB03A3 /* UIWindow + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501D22A2563E0084871E /* UIWindow + Extensions.swift */; };
+		B07CBBB822A28C8500DB03A3 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502122A256770084871E /* UIView + Extensions.swift */; };
+		B07CBBB922A28C9700DB03A3 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502322A25C3B0084871E /* UIImageView + Extensions.swift */; };
+		B07CBBBA22A28C9A00DB03A3 /* UIButton + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502522A25C750084871E /* UIButton + Extensions.swift */; };
+		B07CBBBB22A28C9D00DB03A3 /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502722A25C7D0084871E /* UILabel + Extensions.swift */; };
+		B07CBBBC22A28CA000DB03A3 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502922A25C840084871E /* UIStackView + Extensions.swift */; };
+		B07CBBBD22A28CA200DB03A3 /* UISearchBar + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503922A25D590084871E /* UISearchBar + Extensions.swift */; };
+		B07CBBBE22A28CA500DB03A3 /* UIScrollView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502B22A25C980084871E /* UIScrollView + Extensions.swift */; };
+		B07CBBBF22A28CA700DB03A3 /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502D22A25CAD0084871E /* UITableView + Extensions.swift */; };
+		B07CBBC022A28CAA00DB03A3 /* UICollectionView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502F22A25CD40084871E /* UICollectionView + Extensions.swift */; };
+		B07CBBC122A28CAD00DB03A3 /* UICollectionViewFlowLayout + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503122A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift */; };
+		B07CBBC222A28CAF00DB03A3 /* UINavigationBar + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503322A25D1E0084871E /* UINavigationBar + Extensions.swift */; };
+		B07CBBC322A28CB200DB03A3 /* UINavigationItem + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503522A25D2E0084871E /* UINavigationItem + Extensions.swift */; };
+		B07CBBC422A28CB500DB03A3 /* UIBarButtonItem + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503722A25D400084871E /* UIBarButtonItem + Extensions.swift */; };
+		B07CBBC522A28CB800DB03A3 /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503B22A25D690084871E /* UIViewController + Extensions.swift */; };
+		B07CBBC622A28CBA00DB03A3 /* SFSafariViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503D22A25D7F0084871E /* SFSafariViewController + Extensions.swift */; };
+		B07CBBC722A28CBD00DB03A3 /* MKMapView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503F22A25D980084871E /* MKMapView + Extensions.swift */; };
 		B1CBB67F20AB3A0B98F27617D04E6B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DABABE2EE315374E1EBF61502023EE52 /* Pods-RainKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D619496C9681633567A1D52DA3F66 /* Pods-RainKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -424,8 +441,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07CBBBD22A28CA200DB03A3 /* UISearchBar + Extensions.swift in Sources */,
+				B07CBBC622A28CBA00DB03A3 /* SFSafariViewController + Extensions.swift in Sources */,
+				B07CBBC322A28CB200DB03A3 /* UINavigationItem + Extensions.swift in Sources */,
+				B07CBBC222A28CAF00DB03A3 /* UINavigationBar + Extensions.swift in Sources */,
+				B07CBBB822A28C8500DB03A3 /* UIView + Extensions.swift in Sources */,
+				B07CBBC022A28CAA00DB03A3 /* UICollectionView + Extensions.swift in Sources */,
+				B07CBBBA22A28C9A00DB03A3 /* UIButton + Extensions.swift in Sources */,
+				B07CBBC122A28CAD00DB03A3 /* UICollectionViewFlowLayout + Extensions.swift in Sources */,
+				B07CBBC722A28CBD00DB03A3 /* MKMapView + Extensions.swift in Sources */,
+				B07CBBC522A28CB800DB03A3 /* UIViewController + Extensions.swift in Sources */,
+				B07CBBBF22A28CA700DB03A3 /* UITableView + Extensions.swift in Sources */,
 				5A0491D2BB8EC965CE20E3235C25AAD4 /* RainKit-dummy.m in Sources */,
+				B07CBBBC22A28CA000DB03A3 /* UIStackView + Extensions.swift in Sources */,
+				B07CBBBE22A28CA500DB03A3 /* UIScrollView + Extensions.swift in Sources */,
 				5711504522A25E2E0084871E /* UIControl + Extensions.swift in Sources */,
+				B07CBBB722A28C8000DB03A3 /* UIWindow + Extensions.swift in Sources */,
+				B07CBBBB22A28C9D00DB03A3 /* UILabel + Extensions.swift in Sources */,
+				B07CBBC422A28CB500DB03A3 /* UIBarButtonItem + Extensions.swift in Sources */,
+				B07CBBB922A28C9700DB03A3 /* UIImageView + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +565,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RainKit_Example/Pods-RainKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RainKit_Example/Pods-RainKit_Example.modulemap";
@@ -543,7 +577,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -567,7 +601,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RainKit_Example/Pods-RainKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RainKit_Example/Pods-RainKit_Example.modulemap";
@@ -578,7 +612,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -667,13 +701,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -694,7 +728,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RainKit_Tests/Pods-RainKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RainKit_Tests/Pods-RainKit_Tests.modulemap";
@@ -762,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -770,7 +804,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -791,7 +825,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RainKit_Tests/Pods-RainKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RainKit_Tests/Pods-RainKit_Tests.modulemap";
