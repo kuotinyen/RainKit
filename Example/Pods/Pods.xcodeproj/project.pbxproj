@@ -9,8 +9,25 @@
 /* Begin PBXBuildFile section */
 		4DD89ABD8A9FAD48B28D4FB6F7F35C78 /* Pods-RainKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 966AEE3E11A80F0814ABC288CAFDA662 /* Pods-RainKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5162F7CA563C37DFC7CAED814F9887FE /* Pods-RainKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17E90D9FE45A430C93B1952C8AE7C7 /* Pods-RainKit_Example-dummy.m */; };
-		5711501E22A2563E0084871E /* UIWindow+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501D22A2563E0084871E /* UIWindow+Chains.swift */; };
-		5711502222A256770084871E /* UIView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502122A256770084871E /* UIView+Chains.swift */; };
+		5711501E22A2563E0084871E /* UIWindow + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711501D22A2563E0084871E /* UIWindow + Extensions.swift */; };
+		5711502222A256770084871E /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502122A256770084871E /* UIView + Extensions.swift */; };
+		5711502422A25C3B0084871E /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502322A25C3B0084871E /* UIImageView + Extensions.swift */; };
+		5711502622A25C750084871E /* UIButton + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502522A25C750084871E /* UIButton + Extensions.swift */; };
+		5711502822A25C7D0084871E /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502722A25C7D0084871E /* UILabel + Extensions.swift */; };
+		5711502A22A25C840084871E /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502922A25C840084871E /* UIStackView + Extensions.swift */; };
+		5711502C22A25C980084871E /* UIScrollView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502B22A25C980084871E /* UIScrollView + Extensions.swift */; };
+		5711502E22A25CAD0084871E /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502D22A25CAD0084871E /* UITableView + Extensions.swift */; };
+		5711503022A25CD40084871E /* UICollectionView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711502F22A25CD40084871E /* UICollectionView + Extensions.swift */; };
+		5711503222A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503122A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift */; };
+		5711503422A25D1E0084871E /* UINavigationBar + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503322A25D1E0084871E /* UINavigationBar + Extensions.swift */; };
+		5711503622A25D2E0084871E /* UINavigationItem + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503522A25D2E0084871E /* UINavigationItem + Extensions.swift */; };
+		5711503822A25D400084871E /* UIBarButtonItem + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503722A25D400084871E /* UIBarButtonItem + Extensions.swift */; };
+		5711503A22A25D590084871E /* UISearchBar + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503922A25D590084871E /* UISearchBar + Extensions.swift */; };
+		5711503C22A25D690084871E /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503B22A25D690084871E /* UIViewController + Extensions.swift */; };
+		5711503E22A25D7F0084871E /* SFSafariViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503D22A25D7F0084871E /* SFSafariViewController + Extensions.swift */; };
+		5711504022A25D980084871E /* MKMapView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711503F22A25D980084871E /* MKMapView + Extensions.swift */; };
+		5711504422A25E2E0084871E /* UIControl + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711504322A25E2D0084871E /* UIControl + Extensions.swift */; };
+		5711504522A25E2E0084871E /* UIControl + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711504322A25E2D0084871E /* UIControl + Extensions.swift */; };
 		5A0491D2BB8EC965CE20E3235C25AAD4 /* RainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7096DBA48C9A7D3D590199FBB88AB4F /* RainKit-dummy.m */; };
 		671E178892D813BCD25288067685EDBB /* Pods-RainKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7923EC67CCD517CC47DA7339BCCCC4A /* Pods-RainKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D9D19673D2E534313AB768C83E17BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -46,8 +63,24 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FEACF21B1311397DFB0E0A130BE6BD5 /* Pods-RainKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RainKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		457BE2BB70D19BA01B3857CA150A4C86 /* Pods-RainKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5711501D22A2563E0084871E /* UIWindow+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWindow+Chains.swift"; path = "RainKit/Classes/UIWindow+Chains.swift"; sourceTree = "<group>"; };
-		5711502122A256770084871E /* UIView+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Chains.swift"; path = "RainKit/Classes/UIView+Chains.swift"; sourceTree = "<group>"; };
+		5711501D22A2563E0084871E /* UIWindow + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWindow + Extensions.swift"; path = "RainKit/Classes/UIWindow + Extensions.swift"; sourceTree = "<group>"; };
+		5711502122A256770084871E /* UIView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView + Extensions.swift"; path = "RainKit/Classes/UIView + Extensions.swift"; sourceTree = "<group>"; };
+		5711502322A25C3B0084871E /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Extensions.swift"; path = "RainKit/Classes/UIImageView + Extensions.swift"; sourceTree = "<group>"; };
+		5711502522A25C750084871E /* UIButton + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton + Extensions.swift"; path = "RainKit/Classes/UIButton + Extensions.swift"; sourceTree = "<group>"; };
+		5711502722A25C7D0084871E /* UILabel + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel + Extensions.swift"; path = "RainKit/Classes/UILabel + Extensions.swift"; sourceTree = "<group>"; };
+		5711502922A25C840084871E /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView + Extensions.swift"; path = "RainKit/Classes/UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		5711502B22A25C980084871E /* UIScrollView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView + Extensions.swift"; path = "RainKit/Classes/UIScrollView + Extensions.swift"; sourceTree = "<group>"; };
+		5711502D22A25CAD0084871E /* UITableView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView + Extensions.swift"; path = "RainKit/Classes/UITableView + Extensions.swift"; sourceTree = "<group>"; };
+		5711502F22A25CD40084871E /* UICollectionView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView + Extensions.swift"; path = "RainKit/Classes/UICollectionView + Extensions.swift"; sourceTree = "<group>"; };
+		5711503122A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionViewFlowLayout + Extensions.swift"; path = "RainKit/Classes/UICollectionViewFlowLayout + Extensions.swift"; sourceTree = "<group>"; };
+		5711503322A25D1E0084871E /* UINavigationBar + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINavigationBar + Extensions.swift"; path = "RainKit/Classes/UINavigationBar + Extensions.swift"; sourceTree = "<group>"; };
+		5711503522A25D2E0084871E /* UINavigationItem + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINavigationItem + Extensions.swift"; path = "RainKit/Classes/UINavigationItem + Extensions.swift"; sourceTree = "<group>"; };
+		5711503722A25D400084871E /* UIBarButtonItem + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem + Extensions.swift"; path = "RainKit/Classes/UIBarButtonItem + Extensions.swift"; sourceTree = "<group>"; };
+		5711503922A25D590084871E /* UISearchBar + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISearchBar + Extensions.swift"; path = "RainKit/Classes/UISearchBar + Extensions.swift"; sourceTree = "<group>"; };
+		5711503B22A25D690084871E /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController + Extensions.swift"; path = "RainKit/Classes/UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		5711503D22A25D7F0084871E /* SFSafariViewController + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SFSafariViewController + Extensions.swift"; path = "RainKit/Classes/SFSafariViewController + Extensions.swift"; sourceTree = "<group>"; };
+		5711503F22A25D980084871E /* MKMapView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MKMapView + Extensions.swift"; path = "RainKit/Classes/MKMapView + Extensions.swift"; sourceTree = "<group>"; };
+		5711504322A25E2D0084871E /* UIControl + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIControl + Extensions.swift"; path = "RainKit/Classes/UIControl + Extensions.swift"; sourceTree = "<group>"; };
 		6ADA72A1A168978B7A554B4683A6CB0F /* Pods-RainKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		71D5A438381B34AA7F98C354987BB012 /* Pods_RainKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		735C4AE8AB02CBDA21DF5585E78FDD9F /* Pods-RainKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -205,8 +238,24 @@
 		E36EA52AFEFF540C685CA4B664F1E1EC /* RainKit */ = {
 			isa = PBXGroup;
 			children = (
-				5711501D22A2563E0084871E /* UIWindow+Chains.swift */,
-				5711502122A256770084871E /* UIView+Chains.swift */,
+				5711501D22A2563E0084871E /* UIWindow + Extensions.swift */,
+				5711502122A256770084871E /* UIView + Extensions.swift */,
+				5711504322A25E2D0084871E /* UIControl + Extensions.swift */,
+				5711502322A25C3B0084871E /* UIImageView + Extensions.swift */,
+				5711502522A25C750084871E /* UIButton + Extensions.swift */,
+				5711502722A25C7D0084871E /* UILabel + Extensions.swift */,
+				5711502922A25C840084871E /* UIStackView + Extensions.swift */,
+				5711503922A25D590084871E /* UISearchBar + Extensions.swift */,
+				5711502B22A25C980084871E /* UIScrollView + Extensions.swift */,
+				5711502D22A25CAD0084871E /* UITableView + Extensions.swift */,
+				5711502F22A25CD40084871E /* UICollectionView + Extensions.swift */,
+				5711503122A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift */,
+				5711503322A25D1E0084871E /* UINavigationBar + Extensions.swift */,
+				5711503522A25D2E0084871E /* UINavigationItem + Extensions.swift */,
+				5711503722A25D400084871E /* UIBarButtonItem + Extensions.swift */,
+				5711503B22A25D690084871E /* UIViewController + Extensions.swift */,
+				5711503D22A25D7F0084871E /* SFSafariViewController + Extensions.swift */,
+				5711503F22A25D980084871E /* MKMapView + Extensions.swift */,
 				EB1495B1B6E2506B9D23EF1071D48EFA /* Pod */,
 				C3E7E3B155FE629339B206371B621CBC /* Support Files */,
 			);
@@ -322,6 +371,9 @@
 					39852EB813CDD7B3AACDA0F42CC86586 = {
 						LastSwiftMigration = 1020;
 					};
+					CA2F93A9346CA41A08F6B4A927F60C72 = {
+						LastSwiftMigration = 1020;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -373,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0491D2BB8EC965CE20E3235C25AAD4 /* RainKit-dummy.m in Sources */,
+				5711504522A25E2E0084871E /* UIControl + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,9 +433,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5711502822A25C7D0084871E /* UILabel + Extensions.swift in Sources */,
+				5711502622A25C750084871E /* UIButton + Extensions.swift in Sources */,
+				5711503E22A25D7F0084871E /* SFSafariViewController + Extensions.swift in Sources */,
+				5711503022A25CD40084871E /* UICollectionView + Extensions.swift in Sources */,
+				5711503422A25D1E0084871E /* UINavigationBar + Extensions.swift in Sources */,
+				5711503222A25D070084871E /* UICollectionViewFlowLayout + Extensions.swift in Sources */,
+				5711502E22A25CAD0084871E /* UITableView + Extensions.swift in Sources */,
+				5711503622A25D2E0084871E /* UINavigationItem + Extensions.swift in Sources */,
+				5711504422A25E2E0084871E /* UIControl + Extensions.swift in Sources */,
+				5711502422A25C3B0084871E /* UIImageView + Extensions.swift in Sources */,
 				5162F7CA563C37DFC7CAED814F9887FE /* Pods-RainKit_Example-dummy.m in Sources */,
-				5711502222A256770084871E /* UIView+Chains.swift in Sources */,
-				5711501E22A2563E0084871E /* UIWindow+Chains.swift in Sources */,
+				5711502222A256770084871E /* UIView + Extensions.swift in Sources */,
+				5711502A22A25C840084871E /* UIStackView + Extensions.swift in Sources */,
+				5711502C22A25C980084871E /* UIScrollView + Extensions.swift in Sources */,
+				5711503822A25D400084871E /* UIBarButtonItem + Extensions.swift in Sources */,
+				5711503A22A25D590084871E /* UISearchBar + Extensions.swift in Sources */,
+				5711501E22A2563E0084871E /* UIWindow + Extensions.swift in Sources */,
+				5711504022A25D980084871E /* MKMapView + Extensions.swift in Sources */,
+				5711503C22A25D690084871E /* UIViewController + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA565F1B016343DEDB309CEA6727CD2E /* RainKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -520,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA565F1B016343DEDB309CEA6727CD2E /* RainKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -540,6 +611,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
