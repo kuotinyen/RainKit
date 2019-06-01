@@ -1,0 +1,22 @@
+{
+  "name": "RainKit",
+  "version": "0.1.0",
+  "summary": "A short description of RainKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/郭亭巖/RainKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "郭亭巖": "kuotinyen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/郭亭巖/RainKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RainKit/Classes/**/*"
+}

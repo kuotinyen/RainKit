@@ -1,0 +1,16 @@
+PODS:
+  - RainKit (0.1.0)
+
+DEPENDENCIES:
+  - RainKit (from `../`)
+
+EXTERNAL SOURCES:
+  RainKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RainKit: 9cc84d85d964f9fd7187477b5dfe6a40c9fe2fbe
+
+PODFILE CHECKSUM: 94f7888f645e3b11aab648960a8fd71b4c3057df
+
+COCOAPODS: 1.7.1
